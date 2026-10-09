@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.glow-card {
+  box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-card:hover {
+  box-shadow: 0 0 50px -5px rgba(99, 102, 241, 0.25);
+  transform: translateY(-2px);
+}

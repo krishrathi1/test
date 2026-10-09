@@ -1,25 +1,12 @@
-# Build a complete production-grade full-stack web a
+# Full-Stack Task Management Application
 
-> Production application engineered by **Backend Engineer** and autonomous multi-agent chain.
+Production-grade full-stack web application built with React, TypeScript, Node.js, Express, and SQLite. Target Repository: [krishrathi1/test](https://github.com/krishrathi1/test).
 
-## 🚀 Overview
-Build a complete production-grade full-stack web application with React/TypeScript frontend UI, Node.js Express REST API backend, SQLite/PostgreSQL schema, Dockerfile, and README. Target GitHub Repository: krishrathi1/test
+## Architecture
+- **Frontend:** React + TypeScript + Vite + Tailwind CSS
+- **Backend:** Node.js + Express + TypeScript + SQLite
+- **Containerization:** Docker & Docker Compose
 
-## 📦 Features
-- ⚡ **High Performance Core**: Multi-agent distributed task engine.
-- 🎨 **Modern Responsive UI**: Built with React 19, TypeScript, and Tailwind CSS.
-- 🛡️ **End-to-End Type Safety**: Zod schema validation on all client and server boundaries.
-- 🧪 **Automated Testing Suite**: Vitest unit & integration test coverage.
-- 🌐 **Cloud Native Deployment**: Pre-configured Vercel, Docker, and CI/CD pipelines.
+## Quick Start (Docker Compose)
 
-## 🛠️ Quickstart
-```bash
-npm install
-npm run dev
-```
-
-## 🚢 Deployment
-```bash
-npm run build
-npm start
-```
+Ensure you have Docker and Docker Compose installed:
