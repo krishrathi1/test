@@ -8,4 +8,3 @@
 [0m✗ [0mRead backend/.env.development failed
 [91m[1mError: [0mThe user rejected permission to use this specific tool call.
 [0m→ [0mRead backend/.env.example
-[0m→ [0mRead ARCHITECTURE.md
