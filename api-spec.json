@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Build a complete production-grade full-stack web a",
+    "version": "1.0.0",
+    "description": "API specification for Build a complete production-grade full-stack web application with React/TypeScript frontend UI, Node.js Express REST API backend, SQLite/PostgreSQL schema, Dockerfile, and README. Target GitHub Repository: krishrathi1/test"
+  },
+  "paths": {
+    "/api/v1/health": {
+      "get": {
+        "summary": "Service Health Check",
+        "responses": {
+          "200": {
+            "description": "Healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/execute": {
+      "post": {
+        "summary": "Execute Primary Flow Task",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "payload": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Task Executed Successfully"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    }
+  }
+}
